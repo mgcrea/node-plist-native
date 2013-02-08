@@ -3,6 +3,28 @@
 
 Light, fast & memory efficient plist parser/builder that relies on [libxmljs](https://github.com/polotek/libxmljs).
 
+Quick start
+-----------
+
+Parsing a plist from file/string
+``` javascript
+var plist = require('plist-native');
+
+var obj = plist.parse(fs.readFileSync(__dirname + '/myPlist.plist')); // parses a buffer
+
+var obj2 = plist.parseString('<plist><string>Hello World!</string></plist>'); // parses a string
+
+```
+
+Building a plist from an object
+``` javascript
+var plist = require('plist-native');
+
+var buffer = plist.build({'foo' : 'bar'}); // returns a buffer
+
+var str = plist.buildString({'foo' : 'bar'}); // returns a string
+
+```
 
 Benchmarks
 ----------
