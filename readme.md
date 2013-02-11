@@ -29,7 +29,7 @@ var str = plist.buildString({'foo' : 'bar'}); // returns a string
 Benchmarks
 ----------
 
-Speed benchmark (using `debug`) working with a 13MB iTunes.xml plist library file:
+Speed benchmark with `debug` working with a 13MB iTunes.xml plist library file:
 
 >
 	------------------------------------------------------------------------------------
@@ -40,7 +40,7 @@ Speed benchmark (using `debug`) working with a 13MB iTunes.xml plist library fil
 	| 3 | xml2js       | sax           | 254           | 6s887ms +161% | n/a           |
 	------------------------------------------------------------------------------------
 
-Memory benchmark (using `memwatch`) working with a 13MB iTunes.xml plist library file:
+Memory benchmark with `memwatch` working with a 13MB iTunes.xml plist library file:
 
 >
 	------------------------------------------------------------------------------------
