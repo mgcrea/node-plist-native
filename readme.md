@@ -6,6 +6,8 @@ Light, fast & memory efficient plist parser/builder that relies on [libxmljs](ht
 Quick start
 -----------
 
+Install the `libxml2-dev` package required by `libxmljs` on your system.
+
 Parsing a plist from file/string
 ``` javascript
 var plist = require('plist-native');
