@@ -18,7 +18,7 @@ var obj2 = plist.parseString('<plist><string>Hello World!</string></plist>'); //
 
 ```
 
-Building a plist from an object
+Building a plist from an object:
 ``` javascript
 var plist = require('plist-native');
 
