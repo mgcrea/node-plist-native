@@ -2,7 +2,7 @@
   "name": "plist-native",
   "author": "Olivier Louvignes",
   "license": "MIT",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Node.js native plist parser & builder",
   "main": "index.js",
   "scripts": {
