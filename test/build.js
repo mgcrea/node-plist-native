@@ -11,6 +11,23 @@ var log = function() {
 
 var plist = require('../index');
 
+module.exports.buildTypes = function(assert) {
+  var obj = {
+    buffer: new Buffer('foo: bar'),
+    date: new Date(Date.UTC(1986, 1, 22)),
+    array: ['foo', 'bar'],
+    object: {foo: 'bar'},
+    string: 'foo: bar',
+    number: 1986,
+    bool: true
+  };
+  var buffer = plist.build(obj);
+  assert.equal(buffer instanceof Buffer, true);
+  var expected = fs.readFileSync(__dirname + '/fixtures/types.plist', 'utf8');
+  assert.equal(buffer.toString('utf8'), expected);
+  assert.done();
+};
+
 module.exports.build = function(assert) {
   var filename = __dirname + '/fixtures/cordova.json';
   var obj = JSON.parse(fs.readFileSync(filename, 'utf8'));

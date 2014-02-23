@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>buffer</key>
+    <data>Zm9vOiBiYXI=</data>
+    <key>date</key>
+    <date>1986-02-22T00:00:00Z</date>
+    <key>array</key>
+    <array>
+      <string>foo</string>
+      <string>bar</string>
+    </array>
+    <key>object</key>
+    <dict>
+      <key>foo</key>
+      <string>bar</string>
+    </dict>
+    <key>string</key>
+    <string>foo: bar</string>
+    <key>number</key>
+    <integer>1986</integer>
+    <key>bool</key>
+    <true/>
+  </dict>
+</plist>
