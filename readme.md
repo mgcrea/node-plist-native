@@ -1,5 +1,6 @@
-[node-plist-native](http://mgcrea.github.com/node-plist-native) [![Build Status](https://secure.travis-ci.org/mgcrea/node-plist-native.png?branch=master)](http://travis-ci.org/#!/mgcrea/node-plist-native)
-=================
+# [plist-native](http://mgcrea.github.com/node-plist-native)
+
+[![Build Status](http://img.shields.io/travis/mgcrea/node-plist-native/master.svg?style=flat)](http://travis-ci.org/mgcrea/node-plist-native) [![Downloads](https://img.shields.io/npm/dm/plist-native.svg)](https://www.npmjs.com/package/plist-native) [![Version](https://img.shields.io/npm/v/plist-native.svg)](https://github.com/mgcrea/node-plist-native/releases)
 
 Light, fast & memory efficient plist parser/builder that relies on [libxmljs](https://github.com/polotek/libxmljs).
 
