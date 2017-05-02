@@ -17,7 +17,7 @@
     "xml"
   ],
   "dependencies": {
-    "libxmljs": "^0.17.1"
+    "libxmljs": "^0.18.4"
   },
   "devDependencies": {
     "nodeunit": "0.9.1"
